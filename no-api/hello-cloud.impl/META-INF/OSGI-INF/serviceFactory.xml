@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component
+  name="com.cloudsoft.monterey.hello.ServiceFactory"
+  xmlns="http://www.osgi.org/xmlns/scr/v1.1.0">
+  
+  <service>
+    <provide interface="com.cloudsoftcorp.monterey.network.api.MediationSegmentServiceFactory"/> 
+  </service>
+  
+  <implementation class="com.cloudsoft.monterey.hello.impl.SegmentService$Factory"/>
+  
+</component>

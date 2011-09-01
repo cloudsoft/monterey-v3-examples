@@ -1,0 +1,8 @@
+Bundle-ManifestVersion: 2
+Bundle-Name: hello-cloud.api
+Bundle-SymbolicName: hellocloud.api
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: com.cloudsoftcorp.monterey.network,
+ com.cloudsoftcorp.monterey.management
+Export-Package: com.cloudsoft.monterey.hello

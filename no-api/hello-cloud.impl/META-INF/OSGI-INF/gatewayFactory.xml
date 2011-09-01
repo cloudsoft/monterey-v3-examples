@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component
+  name="com.cloudsoft.monterey.hello.ClientFactory"
+  xmlns="http://www.osgi.org/xmlns/scr/v1.1.0">
+  
+  <service>
+    <provide interface="com.cloudsoftcorp.monterey.network.api.LppClientGatewayFactory"/> 
+  </service>
+  
+  <implementation class="com.cloudsoft.monterey.hello.impl.Gateway$Factory"/>
+  
+</component>
