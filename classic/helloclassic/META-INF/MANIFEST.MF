@@ -1,0 +1,11 @@
+Bundle-ManifestVersion: 2
+Bundle-Name: helloclassic
+Bundle-SymbolicName: helloclassic
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: com.google.guava;bundle-version="8.0.0",
+ com.cloudsoftcorp.monterey.network,
+ javax.servlet,
+ org.mortbay.jetty.server,
+ org.mortbay.jetty.util
+Service-Component: META-INF/OSGI-INF/*.xml
